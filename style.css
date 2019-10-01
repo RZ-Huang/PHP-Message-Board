@@ -1,0 +1,147 @@
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+
+}
+
+body {
+  background: #e8e3e3;
+}
+
+a {
+  font-size: 14px;
+}
+
+.container {
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container p {
+  font-size: 14px;
+}
+
+.card-body {
+  margin-top: 60px;
+}
+
+.input-comment{
+  width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: left;
+  border: 1px solid grey;
+}
+
+#fixed-nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.name {
+  margin-bottom: 20px;
+  font-size: 18px;
+}
+
+input {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.comments {
+  width: 600px;
+  margin: 20px auto;
+  text-align: left;
+}
+
+.comment {
+  padding: 10px;
+  border: 2px solid grey;
+  position: relative;
+}
+
+.comments h1{
+  font-size: 20px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.comments h2 {
+  font-size: 16px;
+}
+
+.comments p {
+  font-size: 14px;
+  color: #7f7f7f;
+}
+
+.comment ~.comment {
+  margin-top: 10px;
+}
+
+.main-comment {
+  margin: 10px;
+  padding: 10px;
+  position: relative;
+  border: 1px dotted black;
+}
+
+.edit-comment, .delete-comment, .delete-sub-comment {
+  color: #4b4646;
+  padding: 0px 5px;
+  font-size: 12px;
+}
+
+p.createdTime-comment {
+  font-size: 14px;
+}
+
+.pages {
+  margin-top: 20px;
+  display: inline-block;
+}
+
+.page {
+  font-size: 20px;
+  padding: 2px 5px;
+  margin: 5px;
+  border: 1px solid black;
+  color: black;
+}
+
+.page:hover {
+  color: white;
+  background: black;
+}
+
+.view-pages {
+  margin-left: 15px;
+  display: inline-block;
+  font-size: 15px;
+}
+
+.sub-comments {
+  margin: 30px 60px;
+  
+}
+
+.sub-comment {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px dotted black;
+  
+}
+
+.text {
+  margin: 10px 0px;
+}
+
+.pop {
+  background: rgb(238, 162, 118);
+}
+
